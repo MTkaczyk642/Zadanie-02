@@ -1,0 +1,131 @@
+[gd_scene load_steps=57 format=2]
+
+[ext_resource path="res://platform_character/PlatformCharacter.gd" type="Script" id=1]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardJump/CharaWizardJump_00003.png" type="Texture" id=2]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardJump/CharaWizardJump_00004.png" type="Texture" id=3]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00018.png" type="Texture" id=4]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardJump/CharaWizardJump_00000.png" type="Texture" id=5]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardJump/CharaWizardJump_00001.png" type="Texture" id=6]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardJump/CharaWizardJump_00005.png" type="Texture" id=7]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardJump/CharaWizardJump_00006.png" type="Texture" id=8]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardJump/CharaWizardJump_00007.png" type="Texture" id=9]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00019.png" type="Texture" id=10]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardJump/CharaWizardJump_00002.png" type="Texture" id=11]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00005.png" type="Texture" id=12]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00008.png" type="Texture" id=13]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00001.png" type="Texture" id=14]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00002.png" type="Texture" id=15]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00007.png" type="Texture" id=16]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00003.png" type="Texture" id=17]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00000.png" type="Texture" id=18]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00004.png" type="Texture" id=19]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00006.png" type="Texture" id=20]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00010.png" type="Texture" id=21]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00012.png" type="Texture" id=22]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00015.png" type="Texture" id=23]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00017.png" type="Texture" id=24]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00018.png" type="Texture" id=25]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00000.png" type="Texture" id=26]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00001.png" type="Texture" id=27]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00004.png" type="Texture" id=28]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00003.png" type="Texture" id=29]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00002.png" type="Texture" id=30]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00009.png" type="Texture" id=31]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00005.png" type="Texture" id=32]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00006.png" type="Texture" id=33]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00007.png" type="Texture" id=34]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00009.png" type="Texture" id=35]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00013.png" type="Texture" id=36]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00016.png" type="Texture" id=37]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00019.png" type="Texture" id=38]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00008.png" type="Texture" id=39]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00010.png" type="Texture" id=40]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00014.png" type="Texture" id=41]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00011.png" type="Texture" id=42]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00011.png" type="Texture" id=43]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00017.png" type="Texture" id=44]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00016.png" type="Texture" id=45]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00013.png" type="Texture" id=46]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00014.png" type="Texture" id=47]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00012.png" type="Texture" id=48]
+[ext_resource path="res://arts/Gracz/BlueWizard/2BlueWizardWalk/Chara_BlueWalk00015.png" type="Texture" id=49]
+[ext_resource path="res://arts/Tło/Background.jpg" type="Texture" id=50]
+[ext_resource path="res://arts/Dodatki/Lava.png" type="Texture" id=51]
+[ext_resource path="res://arts/Dodatki/Ice.png" type="Texture" id=52]
+[ext_resource path="res://arts/Dodatki/Terran.png" type="Texture" id=53]
+[ext_resource path="res://arts/Dodatki/Baren.png" type="Texture" id=54]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 11 ), ExtResource( 2 ), ExtResource( 7 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "Jump",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 26 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 28 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 40 ), ExtResource( 39 ), ExtResource( 42 ), ExtResource( 48 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 45 ), ExtResource( 49 ), ExtResource( 44 ), ExtResource( 4 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "Run",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 17 ), ExtResource( 19 ), ExtResource( 12 ), ExtResource( 16 ), ExtResource( 20 ), ExtResource( 13 ), ExtResource( 31 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 43 ), ExtResource( 36 ), ExtResource( 41 ), ExtResource( 37 ), ExtResource( 23 ), ExtResource( 25 ), ExtResource( 24 ), ExtResource( 38 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 12.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 53.9701, 144 )
+
+[node name="PlatformCharacter" type="KinematicBody2D"]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 0, -100 )
+current = true
+zoom = Vector2( 2, 2 )
+drag_margin_top = 0.0
+drag_margin_bottom = 0.0
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scroll_ignore_camera_zoom = true
+
+[node name="Background" type="Sprite" parent="ParallaxBackground"]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 50 )
+centered = false
+
+[node name="ParallaxBackground2" type="ParallaxBackground" parent="."]
+
+[node name="Lava" type="Sprite" parent="ParallaxBackground2"]
+position = Vector2( 627.493, 36.1247 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 51 )
+centered = false
+
+[node name="ParallaxBackground3" type="ParallaxBackground" parent="."]
+
+[node name="Ice" type="Sprite" parent="ParallaxBackground3"]
+position = Vector2( 367.821, 98.4248 )
+scale = Vector2( 0.4, 0.4 )
+texture = ExtResource( 52 )
+
+[node name="ParallaxBackground4" type="ParallaxBackground" parent="."]
+
+[node name="Terran" type="Sprite" parent="ParallaxBackground4"]
+position = Vector2( 141.616, 152.396 )
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 53 )
+
+[node name="ParallaxBackground5" type="ParallaxBackground" parent="."]
+
+[node name="Terran" type="Sprite" parent="ParallaxBackground5"]
+position = Vector2( 171.777, 128.585 )
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 54 )
